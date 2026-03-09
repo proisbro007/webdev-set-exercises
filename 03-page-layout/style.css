@@ -1,0 +1,32 @@
+.container{
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+grid-gap: 10px;
+}
+
+header{
+grid-column: 1 / 4;
+background: lightblue;
+padding: 20px;
+}
+
+nav{
+background: lightgray;
+padding: 20px;
+}
+
+main{
+background: white;
+padding: 20px;
+}
+
+aside{
+background: lightgray;
+padding: 20px;
+}
+
+footer{
+grid-column: 1 / 4;
+background: lightblue;
+padding: 20px;
+}
